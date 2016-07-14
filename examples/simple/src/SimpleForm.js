@@ -26,8 +26,8 @@ const SimpleForm = (props) => {
       <div>
         <label>Sex</label>
         <div>
-          <label><Field name="sex" component="input" type="radio" value="male"/> Male</label>
-          <label><Field name="sex" component="input" type="radio" value="female"/> Female</label>
+          <label><Field name="sex" component="input" type="radio" props={ { value:'male' } }/> Male</label>
+          <label><Field name="sex" component="input" type="radio" props={ { value:'female' } }/> Female</label>
         </div>
       </div>
       <div>
